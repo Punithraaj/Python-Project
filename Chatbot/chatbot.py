@@ -48,7 +48,6 @@ class Mywin(wx.Frame):
             self.t2.AppendText('\n')
             self.t2.AppendText(str(wikipedia.summary(ques, sentences=2)))
             self.t2.AppendText('\n')
-            self.t2.AppendText('\n')
         except:
             self.t2.AppendText("I don't know")
             self.t2.AppendText('\n')
