@@ -11,7 +11,7 @@ class PidTable:
     PID=0
     isAvailable=0
 
-# Method for allocating the Process Availablity status and Process Id
+# Method for allocating the Process Availablity status and ProcessId
 def allocate_map(pidlist):
     print (sys.getsizeof(pid))
     if(pidlist is None):
